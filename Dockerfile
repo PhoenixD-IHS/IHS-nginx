@@ -1,4 +1,4 @@
-FROM nginx:1.27
+FROM nginx:1.28.0
 
 EXPOSE 80
 EXPOSE 443
