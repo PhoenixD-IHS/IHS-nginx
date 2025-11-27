@@ -53,5 +53,5 @@ jobs:
             owner: context.repo.owner,
             issue_number: context.issue.number,
             repo: context.repo.repo,
-            body: "image with tag '" + process.env.TAG + "' created, see https://hub.docker.com/repository/docker/svenkleinert/pxd-ihs-nginx/tags/" + $process.env.TAG + "/"
+            body: "image with tag '" + process.env.TAG + "' created, see https://hub.docker.com/repository/docker/svenkleinert/pxd-ihs-nginx/tags/" + process.env.TAG + "/"
           })
