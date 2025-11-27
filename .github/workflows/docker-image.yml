@@ -34,7 +34,7 @@ jobs:
       if: ${{ github.event_name == 'release' }}
       env:
         TAG: ${{ steps.tag-selector.outputs.TAG }}
-      run: docker tag svenkleinert/pxd-ihs-zope:$TAG svenkleinert/pxd-ihs-nginx:latest
+      run: docker tag svenkleinert/pxd-ihs-nginx:$TAG svenkleinert/pxd-ihs-nginx:latest
 
     - name: Push Docker image
       env:
