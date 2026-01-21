@@ -1,4 +1,4 @@
-FROM nginx:1.29.3-alpine-slim
+FROM nginx:1.29.4-alpine-slim
 
 EXPOSE 80
 EXPOSE 443
